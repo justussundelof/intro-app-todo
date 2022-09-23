@@ -42,4 +42,56 @@
     color: white;
   }
   
- 
+  .error-span {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    color: rgb(163, 63, 63);
+    font-size: 1rem;
+  }
+  
+  .todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+  }
+  
+  .todo-list {
+    min-width: 35%;
+    list-style: none;
+  }
+  
+  .todo {
+    margin: 0.5rem;
+    background: white;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    color: black;
+    font-size: 1.5rem;
+  }
+  
+  .todo-item {
+    padding: 0 0.5rem;
+  }
+  
+  .todo li {
+    flex: 1;
+  }
+  
+  .delete-button,
+  .done-button {
+    background: #fda085;
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  i {
+    pointer-events: none;
+  }
+  .done-button {
+    background: rgb(20, 195, 20);
+  }
