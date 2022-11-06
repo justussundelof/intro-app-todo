@@ -95,3 +95,48 @@
   .done-button {
     background: rgb(20, 195, 20);
   }
+
+  footer{
+      height: 50px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      margin: 0 auto;
+  }
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+a{
+  margin-right: 20px;
+}
+
+table {
+  color: #333;
+  background: white;
+  border: 1px solid grey;
+  font-size: 12pt;
+  border-collapse: collapse;
+}
+table thead th,
+table tfoot th {
+  color: #777;
+  background: rgba(0,0,0,.1);
+}
+table caption {
+  padding:.5em;
+}
+table th,
+table td {
+  padding: .5em;
+  border: 1px solid lightgrey;
+}
+/* Zebra Table Style */
+[data-table-theme*=zebra] tbody tr:nth-of-type(odd) {
+  background: rgba(0,0,0,.05);
+}
+[data-table-theme*=zebra][data-table-theme*=dark] tbody tr:nth-of-type(odd) {
+  background: rgba(255,255,255,.05);
+}
