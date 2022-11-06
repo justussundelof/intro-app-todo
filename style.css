@@ -119,6 +119,7 @@ table {
   border: 1px solid grey;
   font-size: 12pt;
   border-collapse: collapse;
+  margin-left: 35%;
 }
 table thead th,
 table tfoot th {
@@ -139,4 +140,8 @@ table td {
 }
 [data-table-theme*=zebra][data-table-theme*=dark] tbody tr:nth-of-type(odd) {
   background: rgba(255,255,255,.05);
+}
+
+img {
+  margin-left: 150px;
 }
